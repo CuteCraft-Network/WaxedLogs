@@ -1,6 +1,7 @@
 package net.cutecraft.waxedlogs;
 
 import lombok.Generated;
+import lombok.Getter;
 import net.cutecraft.waxedlogs.listener.BlockDataListener;
 import net.cutecraft.waxedlogs.listener.InteractListener;
 import net.cutecraft.waxedlogs.listener.LogListener;
@@ -14,13 +15,8 @@ import java.util.logging.Logger;
 
 public class WaxedLogsPlugin extends JavaPlugin {
 
-    private static WaxedLogsPlugin instance;
+    @Getter private static WaxedLogsPlugin instance;
     private final Logger logger = getLogger();
-
-    @Generated
-    public static WaxedLogsPlugin getInstance() {
-        return instance;
-    }
 
     public void onLoad() {
         instance = this;
