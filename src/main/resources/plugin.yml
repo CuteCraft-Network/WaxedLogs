@@ -1,0 +1,6 @@
+name: WaxedLogs
+version: "${version}"
+main: net.cutecraft.waxedlogs.WaxedLogsPlugin
+authors: [ Tamikaschu ]
+description: Allows logs to be waxed and prevents them from being stripped.
+api-version: '1.21.4'

@@ -1,0 +1,9 @@
+[versions]
+lombok = "1.18.38"
+
+# Dependencies
+spigot = "1.17.1-R0.1-SNAPSHOT"
+
+[libraries]
+spigot = { group = "org.spigotmc", name = "spigot-api", version.ref = "spigot" }
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" }

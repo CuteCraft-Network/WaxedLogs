@@ -1,0 +1,7 @@
+# DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!
+config-version: 1.0
+
+# Whether only players with the permission can wax logs.
+only-permission:
+  enable: false
+  permission: "waxedlogs.use"
